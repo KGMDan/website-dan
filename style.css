@@ -120,6 +120,9 @@ blockquote {
     margin-left: 0;
     color: var(--secondary-color);
     font-style: italic;
+    color: #b0b5bb;
+    font-weight: 100;
+    font-size: 85%;
 }
 
 table {
@@ -205,4 +208,10 @@ strong, b {
 em, i {
     font-style: italic;
     color: var(--secondary-color);
+}
+
+hl {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 4px;
 }
